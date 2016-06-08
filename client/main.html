@@ -26,7 +26,8 @@
 </template>
 
 <template name="date">
-  <p>It is now: {{date}}</p>
-  <p>It is now: {{ISOToHuman date}}</p>
-  <p>It was as some time: {{ISOToHuman "2016-06-07T01:48:37.695Z"}}</p>
+  <p>It is now (unconverted): {{date}}</p>
+  <p>It is now (converted): {{ISOToHuman date}}</p>
+  <p>It was as some time (unconverted): 2016-06-07T01:48:37.695Z</p>
+  <p>It was as some time (converted): {{ISOToHuman "2016-06-07T01:48:37.695Z"}}</p>
 </template>
